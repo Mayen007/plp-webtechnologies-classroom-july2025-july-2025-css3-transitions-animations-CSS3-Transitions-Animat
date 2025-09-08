@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3 Transitions & Animations with JavaScript</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Part 1: CSS3 Transitions and Animations -->
+    <section class="part-1">
+      <h2>Part 1: CSS3 Transitions and Animations</h2>
+
+      <!-- Button hover effects -->
+      <button class="hover-button">Hover Me!</button>
+
+      <!-- Smooth fades, slides, transforms -->
+      <div class="animated-box">Smooth Transforms</div>
+
+      <!-- Continuous keyframe animation -->
+      <div class="pulse-animation">Continuous Pulse</div>
+    </section>
+
+    <!-- Part 2: JavaScript Functions Demo -->
+    <section class="part-2">
+      <h2>Part 2: JavaScript Functions - Scope, Parameters & Return Values</h2>
+
+      <div class="function-demo">
+        <button onclick="calculateArea(5, 10)">Calculate Area (5×10)</button>
+        <button onclick="greetUser('World')">Greet User</button>
+        <button onclick="demonstrateScope()">Show Scope Example</button>
+        <div id="function-output"></div>
+      </div>
+    </section>
+
+    <!-- Part 3: Combining CSS Animations with JavaScript -->
+    <section class="part-3">
+      <h2>Part 3: Combining CSS Animations with JavaScript</h2>
+
+      <!-- Animated box with JavaScript trigger -->
+      <button onclick="animateBox()">Animate Box</button>
+      <div id="js-animated-box" class="js-box">Click button to animate me!</div>
+
+      <!-- Card flip animation -->
+      <div class="card-container">
+        <div id="flip-card" class="card" onclick="flipCard()">
+          <div class="card-front">
+            <h3>Front Side</h3>
+            <p>Click to flip!</p>
+          </div>
+          <div class="card-back">
+            <h3>Back Side</h3>
+            <p>Click again to flip back!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Loading animation with start/stop -->
+      <button onclick="toggleLoading()">Toggle Loading</button>
+      <div id="loading-spinner" class="spinner hidden">Loading...</div>
+
+      <!-- Modal popup -->
+      <button onclick="showModal()">Show Modal</button>
+      <div id="modal" class="modal hidden">
+        <div class="modal-content">
+          <h3>Modal Title</h3>
+          <p>This modal slides in and fades out!</p>
+          <button onclick="hideModal()">Close</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
